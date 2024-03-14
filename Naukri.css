@@ -3,6 +3,7 @@
     margin:  0;
     box-sizing: border-box;
 }
+/* header section start */
 header{
     height: 70px;
     width: 100%;
@@ -10,19 +11,18 @@ header{
    
 }
 .left-side {
-    /* background-color: blueviolet; */
+   
     width: 50%;
     height: 70px;
     float: left;  
-    
-}
-.left-side {
-    padding-left: 160px;
+       padding-left: 160px;
     padding-top: 20px;
     
+    
 }
+
 .right-side{
-    /* background-color: aqua; */
+  
     width: 50%;
     height: 70px;
     float: left;
@@ -46,11 +46,13 @@ header h3 a{
     color: #275df5;
     font-size: medium;
 }
+/* header section start */
 .container{
-    background: #f8f9fa;;
+    background: #f8f9fa;
     height: 200vh;
     width: 100%;
 }
+/* necessity of naukri start */
 .main-left{
     width: 300px;
     margin-left: 140px;
@@ -68,7 +70,11 @@ margin-top: 40px;
 #main-left-img{
     padding-left: 70px;
     padding-top: 25px;
+   
  
+}
+#main-left-img img{
+    width: 150px;
 }
 .main-left-notes p,h3 {
     padding-left: 50px;
@@ -84,6 +90,9 @@ color: #47b749;
 position: absolute;
 left: 22px;
 }
+/* necessity of naukri start */
+
+/* create login page start */
 .main-right{
    position: relative;
    left: 440px;
@@ -181,7 +190,7 @@ left: 22px;
    outline: solid  1px  #e7e7f1;
 }
 #type-you{
-    /* background-color: gray; */
+   
     width: 80%;
     height: 100px;
     margin-top: 25px;
@@ -189,7 +198,7 @@ left: 22px;
 .final{
     color: #717b9e;
     font-family: sans-serif;
-    /* background-color: #47b749; */
+   
     
 }
 .final h4{
@@ -226,6 +235,9 @@ left: 22px;
     height: 15px;
     border: solid 2px #717b9e;
 }
+/* create login page end */
+
+/* footer section start */
 #foot{
     margin-top: 50px;
     width: 100%;
@@ -243,18 +255,7 @@ left: 22px;
     opacity: .6; 
     margin-bottom: 10px;
 }
-/* #google{
-    position: absolute;
-    left: 750px;
-    bottom: 550px;
-    background-color: #fff;
-    width: 150px;
-    height: 250px;
-    text-align: center;
-    color: #e7e7f1;
-    padding-top: 100px;
-    border: solid 1px black;
-} */
+
 #google button{
     width: 110px;
     height: 42px;
@@ -301,4 +302,5 @@ left: 22px;
     font-size: small;
     color: black;
 }
+/* footer section end */
 
